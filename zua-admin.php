@@ -110,7 +110,7 @@ include('errors/error.php');
 include('view/footer.php');
 } else {
 add_vehicle($type_id, $class_id, $year, $make, $model, $price);
-header("Location: zua-login.php");
+header("Location: zua-admin.php");
 }
 break;
 case 'add_type':
