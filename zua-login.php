@@ -1,5 +1,5 @@
 <?php
-require_once('util/secure_conn.php');
+//require_once('util/secure_conn.php');
 require('model/database.php'); 
 require('model/admin_db.php'); 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
