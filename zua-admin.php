@@ -126,6 +126,6 @@ break;
 case 'logout':
 $_SESSION = array();    //Clear all session data from memory
 session_destroy();      //Clean up the session ID
-header("Location: zua-admin.php");
+header("Location: zua-login.php");
 }
 ?> 
