@@ -1,7 +1,7 @@
 <?php
 session_start();
 //require_once('util/secure_conn.php');
-require_once('util/valid_admin.php');
+//require_once('util/valid_admin.php');
 require('model/database.php'); 
 require('model/vehicle_db.php');
 require('model/type_db.php');
